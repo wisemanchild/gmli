@@ -17,25 +17,25 @@ Comments: site home page
 <meta name="keywords" content="Life, Health, Strength, Wealth, Wisdom, Power, Love, Spritual">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Norlab Business Solutions Home Page 2nd Try </title>
+<title>Norlab Business Solutions Home Page</title>
 
 
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 
-<script>var __adobewebfontsappname__="dreamweaver"</script>
-<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<script>
+	var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript">
+	
+	</script>
 
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
-<style>
+<link href="css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
+
+/* nlm-11-25-2017 begin style section */
+	<style>	
+	
+	
  .banner {
 	background-color: #2D9AB7;
 	background-image: url(images/parallax_teacher-helping-mature-students-in-library.png);
@@ -46,7 +46,23 @@ Comments: site home page
 	
 }
 
-		
+/* nlm-11-25-2017  position is relative and width is 100% because the video is contained in a container class that has a 90% width */
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+	top: 0;
+    width: 100%; 
+    height: 100%;
+}	
+	.content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 90%;
+    padding: 0px;
+}
 	@import url('https://fonts.googleapis.com/css?family=Anton|Playfair+Display+SC:700i');
 	h1, h2, h3, h4, h5, h6 {font-family: 'Playfair Display SC', serif;}
 	p {font-family: 'Anton', sans-serif;}
@@ -61,11 +77,10 @@ Comments: site home page
  <!-- Navigation --> 
 <div class="container"> 
   
-
-  
-  <header title="Life Courses"> <a href="index.html"> <img src="images/logo.png" width="100" height="100" alt=""/> </a> 
+<!-- nlm-11-25-2017 logo dimensions are too large for current size of navbar -->
+  <header title="Life Courses"> <a href="index.html"> <img src="images/logo.png" width="100" height="100" alt="Norlab Logo"/> </a> 
     
-    <!-- nav for home page Noticed that comments showing up in -->
+    <!-- nlm-11-25-2017 being replaced with php include file -->
     
     <nav>
       <ul>
@@ -84,14 +99,17 @@ Comments: site home page
   <!-- Hero Section -->
   
   <section class="hero" id="hero">
-    <h1 class="hero_header">Norlab Business<span class="light">Solutions</span></h1>
-    <h2 class="tagline">Send it to the Lab!</h2>
-<!--
-   	<video width="2000" height="640" controls autoplay loop>
-    	<source src="resources/video.mp4" type="video/mp4">
-    	your browser doesn't support
-    </video>-->
-	  
+	<a href="#about"><video id="myVideo"  muted="muted" autoplay="autoplay" loop="loop" >
+      <source src="images/videoblocks-oregon-coast-rainbow-and-dramatic-cloud-sound_rmtcih9iu__D.mp4" type="video/mp4">
+      your browser doesn't support </video></a>
+
+<!-- nlm-11-25-2017 need to find a better way of rapping content inside the video -->
+<div class="content">
+  <h1>Norlab Business Solutions</h1>
+ <h2>Send it to the lab...</h2>
+	<p>Quotation goes here...</p>
+
+</div>
   </section>
   
   <!-- About Section -->
@@ -108,7 +126,8 @@ Comments: site home page
       more...</p>
     <p class="parallax_description">&nbsp;</p>
   </section>
-  <main class="main-article">
+ 
+	<main class="main-article">
   	<h2>Welcome to the Institute Page</h2>
   	<p>Welcome to the Grace and Mercy Institute Website.  We are a non-profit organization specizing in working with people who are interested in making changes to this world that will make a difference for what people think about and what they care about.
   	The philosopy of the Institute is to deal with the six main topic that are daily challenges for all of us.
@@ -128,6 +147,7 @@ Comments: site home page
     
   	
 </main>
+	
   <!-- More Info Section -->
   
   <footer>
