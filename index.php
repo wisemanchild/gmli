@@ -25,6 +25,7 @@ Comments: site home page
 <script>var __adobewebfontsappname__="dreamweaver"</script>
 <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
 
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +34,7 @@ Comments: site home page
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <style>
  .banner {
 	background-color: #2D9AB7;
@@ -77,6 +78,7 @@ Comments: site home page
 	p {font-family: 'Anton', sans-serif;}
 	
 </style>
+
 </head>
 
 <body>
