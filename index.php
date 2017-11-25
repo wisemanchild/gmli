@@ -46,32 +46,6 @@ Comments: site home page
 	
 }
 
-	
-	video {
-		align-content: center;
-	}
-	
-	
-	/* 1st Letter pseudo style */
-	h2+p::first-letter {
-		color: blue;
-		font-weight: bolder;
-		display: inline-block;
-		background-image: url(images/35X35.gif);
-		background-repeat: no-repeat;
-		float: left;
-		padding-left: 50px;
-	}
-/*
-	h2+p:first-of-type {
-		color: blue;
-		display: inline-block;
-		background-image: url(images/35X35.gif);
-		background-repeat: no-repeat;
-		float: left;
-		padding-left: 50px;
-	}
-*/
 		
 	@import url('https://fonts.googleapis.com/css?family=Anton|Playfair+Display+SC:700i');
 	h1, h2, h3, h4, h5, h6 {font-family: 'Playfair Display SC', serif;}
