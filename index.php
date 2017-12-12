@@ -5,8 +5,8 @@
 <?php
 
 /*-- PHP FILE INFO -------------------------------------------------------------
- *  Application: WEBD166 Final Quote database project
- *  Description: Health courses page on the gmli website
+ *  Application: WEBD168 Final css project
+ *  Description: main page on the gmli website
  *    File Name: health_new.php
  *       Author: Norman McWilliams     Tester:
  * Date created: 12-03-2017            Date updated: 12-12-2017
