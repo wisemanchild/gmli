@@ -1,39 +1,34 @@
 <!doctype html>
+<html><!-- InstanceBegin template="/Templates/gmli_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="info" -->	
+<?php
 
-<html lang="en-US">
+/*-- PHP FILE INFO -------------------------------------------------------------
+ *  Application: WEBD166 Final Quote database project
+ *  Description: Health courses page on the gmli website
+ *    File Name: health_new.php
+ *       Author: Norman McWilliams     Tester:
+ * Date created: 12-03-2017            Date updated: 12-12-2017
+ * Time created: 8:35pm          Time updated: 5:12am
+ *    Revisions: 1.5
+ *    Copyright: (c) 2017 Norlab Business Solutions
+ *----------------------------------------------------------------------------- */
+?>
 
-<!--
-Assignment: final project
-Author: Norman McWilliams	
-Date: 11-16-2017
-Filename: index.php
-Description: norlab business solutions company website
-Comments: site home page
-Version 1.0
-
--->
-
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --> 
 <head>
-	<meta charset="utf-8">
 	<meta name="description" content="main section of the Norlab Business Solution website project">
 	<meta name="keywords" content="Life, Health, Strength, Wealth, Wisdom, Power, Love, Spritual">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Norlab Business Solutions Home Page</title>
 
+	<title>Untitled Document</title>
 
-	<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-
-	<script>
-		var __adobewebfontsappname__ = "dreamweaver"
-	</script>
-	<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript">
-	</script>
-
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
-	<link href="css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
-
+	<link href="solutions/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">	
+	<link href="solutions/css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
 
 	<style>
 		<!--
