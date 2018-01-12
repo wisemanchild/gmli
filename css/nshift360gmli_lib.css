@@ -140,7 +140,29 @@ ul li:hover a {
 
 /* Hero Section */
 
+/*#myVideo {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}*/
 
+/*#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+*/
 
 .hero[title="Main Page"] {
     background-color: black;
@@ -390,6 +412,7 @@ main h2[title='wealth']+p {
 }
 main h2[title='wisdom']~p {
     color: rgb(240,219,172);
+}
  main h2[title='wisdom']+p {
  display: inline-block;
  height: 35px;
@@ -401,6 +424,7 @@ main h2[title='wisdom']~p {
 }
 main h2[title='whats']~p {
     color: green;
+}
  main h2[title='whats']+p {
  display: inline-block;
  height: 35px;
@@ -487,6 +511,32 @@ footer {
 }
 .hidden {
     display: none;
+}
+
+.chevron-down {
+    animation-name: chevron-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+ @keyframes chevron-down {
+ 0% {
+background-color:transparent;
+}
+ 25% {
+margin-top: 50px;
+}
+ 50% {
+margin-top: 75px;
+}
+ 75% {
+margin-top: 100px;
+	 }
+ 100% {
+margin-top: 125px;
+}
 }
 
 /* Mobile */
