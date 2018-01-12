@@ -24,11 +24,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Untitled Document</title>
+	<title>Grace and Mercy Institute Home Page</title>
 
-	<link href="solutions/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">	
-	<link href="solutions/css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
+	<link href="css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
 
 	<style>
 		<!--
@@ -41,6 +41,7 @@
 			background-attachment: abolute;
 			background-size: cover;
 			background-repeat: no-repeat;
+			
 		}
 		/* nlm-11-25-2017  position is relative and width is 100% because the video is contained in a container class that has a 90% width */
 
@@ -80,8 +81,21 @@
 		main h2 {
 			font-size: 3em;
 		}
-		main h2[attr*='Health'] {
-			color: black;
+		.hero_header a {
+			color: white;
+			font-size: 2em;
+		}
+		
+		quote {
+			font-family: cursive;
+			color: green;
+			margin: 150px;
+			padding: 50px;
+			text-align: center;
+		}
+		
+		p::first-letter {
+			font-size: 1.5em;
 		}
 	</style>
 
@@ -100,8 +114,35 @@
 	<!-- Hero Section -->
 	
 	<section class="hero" id="hero">
-    <h1 class=hero_header>Test Hero section</h1>
+    <h1 class="hero_header"><a href="#about"> <span class="glyphicon glyphicon-triangle-bottom"></span></a></h1>
 		<!-- nlm-11-25-2017 need to find a better way of rapping content inside the video -->
+<div class="row">
+<video autoplay muted loop id="myVideo" class="col-lg-4" >
+  <source src="video/logo_video.mp4" type="video/mp4" >
+  Your browser does not support HTML5 video.
+</video>
+	</div>		
+
+<div class="section">
+  <h1>Heading</h1>
+  <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
 
 	</section>
 
@@ -123,21 +164,24 @@
 	<main class="main-article">
 		<h2>Welcome to the Institute Page</h2>
 		<p>Welcome to the Grace and Mercy Institute Website. We are a non-profit organization specizing in working with people who are interested in making changes to this world that will make a difference for what people think about and what they care about. The philosopy of the Institute is to deal with the six main topic that are daily challenges for all of us.
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, quae repellendus! Dolore quas magni omnis incidunt voluptatum natus blanditiis dolorem eligendi, consequuntur? Voluptatum in esse accusamus aspernatur amet saepe vel, aliquid aliquam enim. Eveniet adipisci, officiis ullam fugiat tempora sunt, voluptatibus atque accusantium ad, cum commodi, doloremque quasi laboriosam quis!</p>
+		<p><quote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore provident odit ea facilis nihil! Reprehenderit ipsum possimus odio corporis labore veniam sed sint rem eius porro, minima voluptatibus quasi exercitationem alias delectus dolorum at error architecto soluta quas esse, eum. Quos deserunt quod molestiae ea distinctio cum, tenetur dicta harum debitis itaque suscipit quidem facilis ducimus, saepe vel facere quo quibusdam officiis repudiandae possimus, earum excepturi iusto, nemo ut dolore? Iure eaque, rem optio aspernatur!</quote></p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, omnis porro cumque animi nihil nulla obcaecati, at, corporis tempora nobis dolorem minima! Dignissimos, molestiae, pariatur.</p>
 		</p>
-		<h2><a href="life_new.php" class= "glyphicon glyphicon-link">Life Courses</a></h2>
+		<h2 title="life"><a href="life_new.php" class= "glyphicon glyphicon-link">Life Courses</a></h2>
 		<p>We provide resources and solutions and discussions regarding the lives of human beings on this earth</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi maiores molestias beatae voluptatibus perferendis voluptas totam id quasi ad qui!</p>
 		
-		<h2><a href="health_new.php" class= "glyphicon glyphicon-link">Health Courses</a></h2>
+		<h2 title="health"><a href="health_new.php" class= "glyphicon glyphicon-link">Health Courses</a></h2>
 		<p>Resources and solutions and discussions regarding individual, group and general resources for a better quality of life...</p>
 		
-		<h2><a href="strength_new.php" class= "glyphicon glyphicon-link">Stength </a></h2>
+		<h2 title="strength"><a href="strength_new.php" class= "glyphicon glyphicon-link">Stength </a></h2>
 		<p>Resources solutions and discussions regarding spiritual physical and mental endurance to assist in the transformation</p>
 			
-		<h2><a href="wealth_new.php" class= "glyphicon glyphicon-link">Wealth</a></h2>
+		<h2 title="wealth"><a href="wealth_new.php" class= "glyphicon glyphicon-link">Wealth</a></h2>
 		<p>Wealth is not just the acquisition of money there's also the possibility of not thinking about money and working towards </p>
 		
-		<h2><a href="wisdom_new.php" class= "glyphicon glyphicon-link">Wisdom</a></h2>
+		<h2 title="wisdom"><a href="wisdom_new.php" class= "glyphicon glyphicon-link">Wisdom</a></h2>
 		<p>Resources, solutions and discussions regarding the concepts of knowledge and wisdom</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit consequuntur temporibus accusantium sunt rerum perferendis sed voluptatum quos asperiores, atque harum numquam tenetur repellat commodi consequatur neque non. Dolorum voluptatum sed vel laborum explicabo minus, vero aspernatur similique nobis, eveniet iste eum enim saepe accusamus quas. Aliquam maxime quaerat, adipisci!</p>
 

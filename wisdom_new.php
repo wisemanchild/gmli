@@ -26,9 +26,9 @@
 
 	<title>Untitled Document</title>
 
-	<link href="solutions/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">	
-	<link href="solutions/css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
+	<link href="css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
 	<style>
 		<!--styles go here -->
 	</style>
@@ -50,6 +50,13 @@
    more...</p>
     <p class="parallax_description">&nbsp;</p>
   </section>
+
+	<main class="main-article">
+		<h2 title="wisdom"><a href="wisdom_new.php" class= "glyphicon glyphicon-link">Wisdom</a></h2>
+		<p>Resources, solutions and discussions regarding the concepts of knowledge and wisdom</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas accusantium repellendus hic quasi dolores commodi error provident delectus esse distinctio fugiat fugit doloribus dolorum, nisi numquam vel ad eligendi possimus id quibusdam voluptate magnam suscipit deleniti? Voluptates veniam odit eligendi laboriosam harum eum iste, enim deserunt similique excepturi minus ab perspiciatis hic aliquam, nulla veritatis, ad praesentium natus sunt rerum. Libero consectetur sit repudiandae eveniet ducimus ipsa cumque doloribus debitis ea dignissimos pariatur voluptas sunt, est maiores dolorem quam! Adipisci doloribus molestias ullam. Rem illo adipisci nostrum perferendis suscipit fugiat rerum quos nobis maiores, doloribus, dolorum, voluptas. Repellendus itaque delectus veritatis consequuntur modi, at eum soluta officiis quo, vero atque aperiam reprehenderit sequi nostrum veniam, aliquid rerum dolores! Asperiores, laborum.</p>
+
+	</main>
 	
 
 	<?php include_once('includes/catagories.php'); ?>

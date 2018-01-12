@@ -26,9 +26,9 @@
 
 	<title>Untitled Document</title>
 
-	<link href="solutions/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">	
-	<link href="solutions/css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
+	<link href="css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
 	<style>
 		<!--styles go here -->
 	</style>
@@ -61,7 +61,13 @@
     <p class="parallax_description">&nbsp;</p>
   </section>
 
-	
+		<main class="main-article">
+		<h2 title="wealth"><a href="wealth_new.php" class= "glyphicon glyphicon-link">Wealth Classes</a></h2>
+		<p>Wealth is not just the acquisition of money there's also the possibility of not thinking about money and working towards </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusamus assumenda accusantium dignissimos amet architecto natus id tempore iste, aut beatae quae iure cumque laborum enim deleniti dolores officiis quos. Id ipsam rem dolore nisi reiciendis quidem incidunt eius mollitia, placeat nihil reprehenderit quasi sunt porro aspernatur, repellendus sapiente fugiat magnam veniam accusamus, modi laboriosam harum. Maxime, sunt eligendi earum, nobis corporis rem vitae quod! Odio consectetur ipsa cumque, voluptate necessitatibus, molestiae nihil! Consectetur delectus deserunt facere? Perferendis cum maxime modi, quibusdam excepturi aspernatur quasi. Temporibus doloremque soluta, repellat eum reprehenderit consequuntur iste illum quis ab omnis, corporis porro animi iusto modi assumenda nam veniam sequi accusamus rerum. Facilis voluptatem, eaque consequatur harum animi architecto excepturi adipisci perferendis repellat! Nihil.</p>
+		
+	</main>
+
 	<?php include_once('includes/catagories.php'); ?>
 	<!-- Footer Section -->
 	<?php include_once('includes/footer.php'); ?>

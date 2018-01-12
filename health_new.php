@@ -26,9 +26,9 @@
 
 	<title>Untitled Document</title>
 
-	<link href="solutions/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">	
-	<link href="solutions/css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
+	<link href="css/nshift360gmli_lib.css" rel="stylesheet" type="text/css">
 	<style>
 		<!--styles go here -->
 	</style>
@@ -49,7 +49,13 @@
   </p>
   <p class="parallax_description">&nbsp;</p>
   </section>
-	
+		<main class="main-article">
+		<h2 title="health"><a href="health_new.php" class= "glyphicon glyphicon-link">Health Courses</a></h2>
+		<p>Resources and solutions and discussions regarding individual, group and general resources for a better quality of life...</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sequi, corporis non exercitationem officiis doloremque similique recusandae cupiditate nostrum veritatis, sint iure commodi quis nemo eos a itaque tempore quod id est. In iusto inventore vero veniam debitis sint, illum aperiam velit quos molestiae, deleniti expedita tempore non nostrum, tenetur? Natus corporis, accusamus numquam veniam, magni dolorem quibusdam necessitatibus atque accusantium nisi dolore consequuntur eius aliquid explicabo ut autem iure eos saepe molestiae vero? Nesciunt consequatur quae non vitae perferendis iusto, voluptate numquam nulla reiciendis excepturi commodi maiores natus mollitia tempora ex, unde quis similique minus, cupiditate quos! Dicta perferendis consequatur, neque error odit nostrum alias totam, aliquid deleniti modi ducimus, similique. Nostrum dignissimos, dolore, sequi molestias laboriosam iste quis?</p>
+
+	</main>
+
 	
 	<?php include_once('includes/catagories.php'); ?>
 	<!-- Footer Section -->
