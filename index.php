@@ -292,8 +292,8 @@
 <script>
     /*
     *   remove the spashscreen video and hero title display
-    *
-    * /
+    *   TODO: need to find a way to reduce the wait time on vid.style.display ended event
+    */
     function videoEnded() {
         var vid = document.getElementById("myVideo");
         var hero = document.getElementById("hero");
