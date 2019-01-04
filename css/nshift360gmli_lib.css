@@ -4,9 +4,9 @@
  *  Description: css for website
  *    File Name: nshift360gmli_lib.css.php
  *       Author: Norman McWilliams     Tester:
- * Date created: 12-03-2017            Date updated: 12-12-2017
+ * Date created: 12-03-2017            Date updated: 01-03-2019
  * Time created: 8:35pm          Time updated: 05:34am
- *    Revisions: 1.5
+ *    Revisions: 1.6
  *    Copyright: (c) 2017 Norlab Business Solutions
  *----------------------------------------------------------------------------- */
 /* font section */
@@ -38,17 +38,18 @@ body {
     margin: 50px;
 }
 .logorotate {
-    margin-left: 0px;
-    width: 100px;
-    height: 100px;
+    margin-left: 50px;
+    padding-left: 50px;
+    width: 50px;
+    height: 50px;
     transition-timing-function: linear;
     transition-delay: 3s;
     transition-delay: 2s;
     transition: transform 5s;
 }
 .logorotate:hover {
-    width: 250px;
-    height: 250px;
+    width: 50px;
+    height: 50px;
     transform: rotatex(360deg) rotatey(45deg) rotatez(15deg);
 }
 /* Navigation */
@@ -109,7 +110,7 @@ header[title="Wisdom Courses"] {
 }
 /* navigation CSS Section */
 nav {
-    float: right;
+    float: left;
     width: 100%;
     text-align: right;
     margin-right: 25px;

@@ -9,9 +9,9 @@
  *  Description: wisdom website page
  *    File Name: wisdom_new.php
  *       Author: Norman McWilliams     Tester:
- * Date created: 12-03-2017            Date updated: 12-12-2017
+ * Date created: 12-03-2017            Date updated: 01-03-2019
  * Time created: 8:35pm          Time updated: 5:26am
- *    Revisions: 1.5
+ *    Revisions: 1.6
  *    Copyright: (c) 2017 Norlab Business Solutions
  *----------------------------------------------------------------------------- */
 ?>

@@ -9,9 +9,9 @@
  *  Description: wealth page for the gmli website
  *    File Name: wealth_new.php
  *       Author: Norman McWilliams     Tester:
- * Date created: 12-03-2017            Date updated: 12-12-2017
+ * Date created: 12-03-2017            Date updated: 01-03-2019
  * Time created: 8:35pm          Time updated: 5:29am
- *    Revisions: 1.5
+ *    Revisions: 1.6
  *    Copyright: (c) 2017 Norlab Business Solutions
  *----------------------------------------------------------------------------- */
 ?>

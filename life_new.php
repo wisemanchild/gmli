@@ -9,9 +9,9 @@
  *  Description: life page for the gmli website
  *    File Name: life_new.php
  *       Author: Norman McWilliams     Tester:
- * Date created: 12-10-2017            Date updated: 12-12-2017
+ * Date created: 12-10-2017            Date updated: 01-03-2019
  * Time created: 8:35pm          Time updated: 5:32am
- *    Revisions: 1.5
+ *    Revisions: 1.6
  *    Copyright: (c) 2017 Norlab Business Solutions
  *----------------------------------------------------------------------------- */
 ?>
