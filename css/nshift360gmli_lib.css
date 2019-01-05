@@ -4,14 +4,18 @@
  *  Description: css for website
  *    File Name: nshift360gmli_lib.css.php
  *       Author: Norman McWilliams     Tester:
- * Date created: 12-03-2017            Date updated: 01-03-2019
+ * Date created: 12-03-2017            Date updated: 01-05-2019
  * Time created: 8:35pm          Time updated: 05:34am
- *    Revisions: 1.6
+ *    Revision: 1.7
  *    Copyright: (c) 2017 Norlab Business Solutions
  *----------------------------------------------------------------------------- */
 /* font section */
-@import url('https://fonts.googleapis.com/css?family=Anton|Bungee|Lobster|Shrikhand');
+@ /*import url('https://fonts.googleapis.com/css?family=Anton|Bungee|Lobster|Shrikhand');*/
 /* end of font section */
+.navbar {
+    position: fixed;
+}
+
 body {
     font-family: 'Anton', sans-serif;
     background-color: #f2f2f2;
@@ -22,6 +26,7 @@ body {
     font-style: normal;
     font-weight: 200;
 }
+
 /* Container */
 
 .container {
@@ -31,12 +36,14 @@ body {
     height: 100px;
     background-color: #F20044;
 }
+
 /* Main Article */
 .main-article {
     color: purple;
     font-size: 2em;
     margin: 50px;
 }
+
 .logorotate {
     margin-left: 50px;
     padding-left: 50px;
@@ -47,56 +54,109 @@ body {
     transition-delay: 2s;
     transition: transform 5s;
 }
+
 .logorotate:hover {
     width: 50px;
     height: 50px;
     transform: rotatex(360deg) rotatey(45deg) rotatez(15deg);
 }
+
 /* Navigation */
 
 /* Use of the <header> element  */
-header {
+/*header {
     width: 100%;
     height: 15%;
     background-color: black;
     position: relative;
     top: 10px;
-}
+}*/
 /* start of header value selectors */
+/* colors are based on a blend perscribed by adobe.colors.  They may be a little glaring but the experiment
+was to display colors based on pseudo-elements
+ */
+header[title="Grace And Mercy Learning Institute"] {
+    background-color: brown;
+    background-image: linear-gradient(rgb(242, 0, 68), rgb(135, 138, 4));
+    height: 0px;
+
+}
+
+/* Colors are based on titles */
+/* Life Colors
+#F20044 LIFE_CONTAINER_COLOR
+#FF0756 LIFE_HEADER_COLOR
+#F2F0F2 LIFE_HERO_COLOR
+#004C8E LIFE_BANNER_COLOR
+#878A04 LIFE_ARTICLE_COLOR
+*/
 header[title="Life Courses"] {
-    background-color: rgba(242,0,68,.25);
-  background-image: linear-gradient(rgb(242,0,68),rgb(135,138,4)); 
-	height: 150px; 
-	
+    background-color: rgba(242, 0, 68, .25);
+    background-image: linear-gradient(rgb(242, 0, 68), rgb(135, 138, 4));
+    height: 0px;
+
 }
+
+/* Health Colors
+#8E4375 HEALTH_CONTAINER_COLOR
+#0E010A HEALTH_HEADER_COLOR
+#013C71 HEALTH_HERO_COLOR
+#578C01 HEALTH_BANNER_COLOR
+#F3F0F0 HEALTH_ARTICLE_COLOR
+*/
 header[title="Health Courses"] {
-    background-color: rgba(142,67,117,.25);
-	background-image: -webkit-linear-gradient(rgb(142,67,117), rgb(243,240,240));
-	background-image: -o-linear-gradient(rgb(142,67,117), rgb(243,240,240));
-	background-image: linear-gradient(rgb(142,67,117), rgb(243,240,240)); 
-	height: 150px;
+    background-color: rgba(142, 67, 117, .25);
+    background-image: -webkit-linear-gradient(rgb(142, 67, 117), rgb(243, 240, 240));
+    background-image: -o-linear-gradient(rgb(142, 67, 117), rgb(243, 240, 240));
+    background-image: linear-gradient(rgb(142, 67, 117), rgb(243, 240, 240));
+    height: 0px;
 }
+
+/* Strength Colors
+#741B1F STRENGTH_CONTAINER_COLOR
+#F24560 STRENGTH_HEADER_COLOR
+#21C087 STRENGTH_HERO_COLOR
+#F1EECE STRENGTH_BANNER_COLOR
+#DBBDB6 STRENGTH_ARTICLE_COLOR
+*/
 header[title="Strength Courses"] {
-    background-color: rgba(116,27,31,.25);
-background-image: -webkit-linear-gradient(rgb(116,27,31), rgb(219,189,182));
-background-image: -o-linear-gradient(rgb(116,27,31), rgb(219,189,182));
-background-image: linear-gradient(rgb(116,27,31), rgb(219,189,182)); 
-	height:150px;
+    background-color: rgba(116, 27, 31, .25);
+    background-image: -webkit-linear-gradient(rgb(116, 27, 31), rgb(219, 189, 182));
+    background-image: -o-linear-gradient(rgb(116, 27, 31), rgb(219, 189, 182));
+    background-image: linear-gradient(rgb(116, 27, 31), rgb(219, 189, 182));
+    height: 0px;
 }
+
+/* Wealth Colors
+#CBDADA WEALTH_CONTAINER_COLOR
+#B9BF98 WEALTH_HEADER_COLOR
+#D5C269 WEALTH_HERO_COLOR
+#A75551 WEALTH_BANNER_COLOR
+#DBBAB7 WEALTH_ARTICLE_COLOR
+*/
 header[title="Wealth Courses"] {
-    background-color: rgba(203,218,218,.25);
-background-image: -webkit-linear-gradient(rgb(203,218,218), rgb(219,186,183)) ;
-background-image: -o-linear-gradient(rgb(203,218,218), rgb(219,186,183)) ;
-background-image: linear-gradient(rgb(203,218,218), rgb(219,186,183)) ;
-	height: 150px;
+    background-color: rgba(203, 218, 218, .25);
+    background-image: -webkit-linear-gradient(rgb(203, 218, 218), rgb(219, 186, 183));
+    background-image: -o-linear-gradient(rgb(203, 218, 218), rgb(219, 186, 183));
+    background-image: linear-gradient(rgb(203, 218, 218), rgb(219, 186, 183));
+    height: 0px;
 }
+
+/* Wisdom Colors
+#F0DBAC WISDOM_CONTAINER_COLOR
+#563A14 WISDOM_HEADER_COLOR
+#D6B389 WISDOM_HERO_COLOR
+#F2E6D7 WISDOM_BANNER_COLOR
+#A65A17 WISDOM_ARTICLE_COLOR
+*/
 header[title="Wisdom Courses"] {
-    background-color: rgba(240,219,172,.25);	
-	background-image: -webkit-linear-gradient()rgb(240,219,172,rgb(166,90,23));;
-	background-image: -o-linear-gradient()rgb(240,219,172,rgb(166,90,23));;
-	background-image: linear-gradient()rgb(240,219,172,rgb(166,90,23));; 
-	height: 150px;
+    background-color: rgba(240, 219, 172, .25);
+    background-image: -webkit-linear-gradient() rgb(240, 219, 172, rgb(166, 90, 23));;
+    background-image: -o-linear-gradient() rgb(240, 219, 172, rgb(166, 90, 23));;
+    background-image: linear-gradient() rgb(240, 219, 172, rgb(166, 90, 23));;
+    height: 0px;
 }
+
 /* end of header value selectors */
 
 .logo {
@@ -106,8 +166,9 @@ header[title="Wisdom Courses"] {
     float: left;
     margin-top: 15px;
     margin-left: 25px;
-    letter-spacing: 4px;	
+    letter-spacing: 4px;
 }
+
 /* navigation CSS Section */
 nav {
     float: left;
@@ -116,10 +177,12 @@ nav {
     margin-right: 25px;
     background-color: black;
 }
+
 header nav ul {
     list-style: none;
     float: right;
 }
+
 nav ul li {
     float: left;
     color: #FFFFFF;
@@ -130,16 +193,23 @@ nav ul li {
     font-weight: normal;
     transition: all 0.3s linear;
 }
+
 ul li a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
 ul li:hover a {
     color: #2C9AB7;
 }
+
 /* end of navigation section */
 
 /* Hero Section */
+#hero {
+    height: 100%;
+
+}
 
 /*#myVideo {
     position: sticky;
@@ -168,25 +238,32 @@ ul li:hover a {
 .hero[title="Main Page"] {
     background-color: black;
 }
+
 .hero[title="Life Courses"] {
     background-color: #FF0756;
 }
+
 .hero[title="Health Courses"] {
-    background-color: #FF0756;	
+    background-color: #FF0756;
 }
+
 .hero[title="Strength Courses"] {
     background-color: #FF0756;
 }
+
 .hero[title="Wealth Courses"] {
     background-color: #FF0756;
 }
+
 .hero[title="Wisdom Courses"] {
     background-color: #FF0756;
 }
+
 .light {
     font-weight: bold;
     color: #717070;
 }
+
 /* About Section */
 
 .text_column {
@@ -199,6 +276,7 @@ ul li:hover a {
     padding-right: 20px;
     color: #A3A3A3;
 }
+
 .about {
     padding-left: 25px;
     padding-right: 25px;
@@ -207,12 +285,14 @@ ul li:hover a {
     background-color: #FFFFFF;
     margin-top: 0px;
 }
+
 /* Stats Gallery */
 
 .stats {
     color: #717070;
     margin-bottom: 5px;
 }
+
 .gallery {
     clear: both;
     display: inline-block;
@@ -225,12 +305,14 @@ ul li:hover a {
     margin-top: -5px;
     margin-bottom: 0px;
 }
+
 .thumbnail {
     width: 25%;
     text-align: center;
     float: left;
     margin-top: 35px;
 }
+
 .gallery .thumbnail h4 {
     margin-top: 5px;
     margin-right: 5px;
@@ -238,6 +320,7 @@ ul li:hover a {
     margin-left: 5px;
     color: #52BAD5;
 }
+
 .gallery .thumbnail p {
     margin-top: 0px;
     margin-right: 0px;
@@ -245,6 +328,7 @@ ul li:hover a {
     margin-left: 0px;
     color: #A3A3A3;
 }
+
 /* Parallax Section */
 /* value selectors for the banner tag */
 .banner {
@@ -253,37 +337,38 @@ ul li:hover a {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.banner[title="Main Page"] {
-    background-color: #2D9AB7;
-    background-image: url(../images/parallax_teacher-helping-mature-students-in-library.png);	
-	
-}
-	
+
 .banner[title="Life Courses"] {
     background-color: #2D9AB7;
     background-image: url(../images/parallax_graphicstock-active-seniors-running-outside.png);
 
 }
+
 .banner[title="Health Courses"] {
     background-color: #2D9AB7;
     background-image: url(../images/parallax_purplejuice.png);
 }
+
 .banner[title="Strength Courses"] {
     background-color: #2D9AB7;
     background-image: url(../images/parallax_bike-alen.png);
 }
+
 .banner[title="Wealth Courses"] {
     background-color: #2D9AB7;
     background-image: url(../images/parallax_piggybank.png);
 }
+
 .banner[title="Wisdom Courses"] {
     background-color: #2D9AB7;
     background-image: url(../images/parallax_experience-torn-paper.png);
 }
-.banner[title="Main Page"] {
+
+.banner[title="Grace And Mercy Learning Institute"] {
     background-color: #2D9AB7;
     background-image: url(../images/parallax_teacher-helping-mature-students-in-library.png);
 }
+
 /* end of banner value tag elements */
 .parallax {
     color: #FFFFFF;
@@ -294,6 +379,7 @@ ul li:hover a {
     margin-top: 0px;
     font-size: 3em;
 }
+
 .parallax_description {
     color: #FFFFFF;
     text-align: right;
@@ -308,64 +394,75 @@ ul li:hover a {
     margin-left: 0px;
     font-size: 1.5em;
 }
+
 /* More info */
 
 footer {
     background-color: #FFFFFF;
     padding-bottom: 35px;
 }
+
 .footer_column {
     width: 33.3%;
     text-align: center;
     padding-top: 30px;
     float: left;
-  /* CSS for Border Image goes here */
-    border-image-source: url(../images/thorn_border.jpg);
-    border-image-slice: 32 39 36 41 fill;	
-    border-image-repeat: stretch;	
-   /* outline: auto	*/
+    /* CSS for Border Image goes here */
+    border-image-source: url("../images/vector-frame-in-vintage-style.jpg");
+    border-image-slice: 32 39 36 41 fill;
+    border-image-repeat: stretch;
+    /* outline: auto	*/
 }
- 
 
 footer .footer_column h3 {
     color: #B3B3B3;
     text-align: center;
 }
+
 footer .footer_column p {
     color: #717070;
     background-color: #FFFFFF;
 }
+
 /* colors based on catagories for links */
 
 /* beginning of footer value tags */
 footer a, main a[href*='life'] {
-    color: rgb(242,0,68);
+    color: rgb(242, 0, 68);
 }
+
 footer a, main a[href*='health'] {
-    color: rgb(142,67,117);
+    color: rgb(142, 67, 117);
 }
+
 footer a, main a[href*='strength'] {
-    color: rgb(116,27,31);
+    color: rgb(116, 27, 31);
 }
+
 footer a, main a[href*='wealth'] {
-    color: rgb(203,218,218);
+    color: rgb(203, 218, 218);
 }
+
 footer a, main a[href*='wisdom'] {
-    color: rgb(240,219,172);
+    color: rgb(240, 219, 172);
 }
+
 footer a, main a[href*='whats'] {
     color: green;
 }
+
 /* end of footer value tag elements */
 
 /* begining of main value sibling combinator tag elements */
 p::first-letter {
     font-size: 1.5em;
 }
-main h2[title='life']~p {
-    color: rgb(242,0,68);
+
+main h2[title='life'] ~ p {
+    color: rgb(242, 0, 68);
 }
-main h2[title='life']+p {
+
+main h2[title='life'] + p {
     display: inline-block;
     height: 35px;
     line-height: 35px;
@@ -374,10 +471,12 @@ main h2[title='life']+p {
     padding-left: 2em;
     background-image: url(../images/3d-vector-alphabet-L-text35x35.png);
 }
-main h2[title='health']~p {
-    color: rgb(142,67,117);
+
+main h2[title='health'] ~ p {
+    color: rgb(142, 67, 117);
 }
-main h2[title='health']+p {
+
+main h2[title='health'] + p {
     display: inline-block;
     height: 35px;
     line-height: 35px;
@@ -386,10 +485,12 @@ main h2[title='health']+p {
     padding-left: 2em;
     background-image: url(../images/3d-vector-alphabet-h-text35x35.png);
 }
-main h2[title='strength']~p {
-    color: rgb(116,27,31);
+
+main h2[title='strength'] ~ p {
+    color: rgb(116, 27, 31);
 }
-main h2[title='strength']+p {
+
+main h2[title='strength'] + p {
     display: inline-block;
     height: 35px;
     line-height: 35px;
@@ -398,11 +499,13 @@ main h2[title='strength']+p {
     padding-left: 2em;
     background-image: url(../images/3d-vector-alphabet-s-text35x35.png);
 }
-main h2[title='wealth']~p {
-    color: rgb(203,218,218);
+
+main h2[title='wealth'] ~ p {
+    color: rgb(203, 218, 218);
 }
-main h2[title='wealth']+p {
-    color: rgb(203,218,218);
+
+main h2[title='wealth'] + p {
+    color: rgb(203, 218, 218);
     display: inline-block;
     height: 35px;
     line-height: 35px;
@@ -411,38 +514,44 @@ main h2[title='wealth']+p {
     padding-left: 2em;
     background-image: url(../images/3d-vector-alphabet-w-text35x35.png);
 }
-main h2[title='wisdom']~p {
-    color: rgb(240,219,172);
+
+main h2[title='wisdom'] ~ p {
+    color: rgb(240, 219, 172);
 }
- main h2[title='wisdom']+p {
- display: inline-block;
- height: 35px;
- line-height: 35px;
- background-position: left;
- background-repeat: no-repeat;
- padding-left: 2em;
- background-image: url(../images/3d-vector-alphabet-w-text35x35.png);
+
+main h2[title='wisdom'] + p {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    background-image: url(../images/3d-vector-alphabet-w-text35x35.png);
 }
-main h2[title='whats']~p {
+
+main h2[title='whats'] ~ p {
     color: green;
 }
- main h2[title='whats']+p {
- display: inline-block;
- height: 35px;
- line-height: 35px;
- background-position: left;
- background-repeat: no-repeat;
- padding-left: 2em;
- background-image: url(../images/3d-vector-alphabet-w-text35x35.png);
+
+main h2[title='whats'] + p {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    background-image: url(../images/3d-vector-alphabet-w-text35x35.png);
 }
-/* end of main value sibling combinator tag elements */	
-	
+
+/* end of main value sibling combinator tag elements */
+
 .cards {
     width: 100%;
     height: auto;
     max-width: 400px;
     max-height: 200px;
 }
+
 footer .footer_column p {
     padding-left: 30px;
     padding-right: 30px;
@@ -452,6 +561,7 @@ footer .footer_column p {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .button {
     width: 200px;
     margin-top: 40px;
@@ -472,11 +582,13 @@ footer .footer_column p {
     color: #FFFFFF;
     transition: all 0.3s linear;
 }
+
 .button:hover {
     background-color: #FEFEFE;
     color: #C4C4C4;
     cursor: pointer;
 }
+
 .copyright {
     text-align: center;
     padding-top: 20px;
@@ -488,6 +600,7 @@ footer .footer_column p {
     letter-spacing: 2px;
     border-top-width: 2px;
 }
+
 .add_info {
     text-align: center;
     padding-top: 20px;
@@ -499,6 +612,7 @@ footer .footer_column p {
     letter-spacing: 2px;
     border-top-width: 2px;
 }
+
 .footer_banner {
     background-color: #B3B3B3;
     padding-top: 60px;
@@ -507,9 +621,11 @@ footer .footer_column p {
     background-image: url(../images/pattern.png);
     background-repeat: repeat;
 }
+
 footer {
     display: inline-block;
 }
+
 .hidden {
     display: none;
 }
@@ -522,241 +638,269 @@ footer {
     margin-top: 150px;
     position: relative;
 }
- @keyframes chevron-down {
- 0% {
-background-color:transparent;
-}
- 25% {
-margin-top: 50px;
-}
- 50% {
-margin-top: 75px;
-}
- 75% {
-margin-top: 100px;
-	 }
- 100% {
-margin-top: 125px;
-}
+
+@keyframes .chevron-down {
+    0% {
+        background-color: transparent;
+    }
+    25% {
+        margin-top: 50px;
+    }
+    50% {
+        margin-top: 75px;
+    }
+    75% {
+        margin-top: 100px;
+    }
+    100% {
+        margin-top: 125px;
+    }
 }
 
 /* Mobile */
 /* beginning of mobile media queries */
 @media (max-width: 320px) {
-.logo {
-    width: 100%;
-    text-align: center;
-    margin-top: 13px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-.container header nav {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 100%;
-    float: none;
-    display: none;
-}
-header nav ul {
-}
-nav ul li {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 100%;
-    text-align: center;
-}
-.text_column {
-    width: 100%;
-    text-align: justify;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-.thumbnail {
-    width: 100%;
-}
-.footer_column {
-    width: 100%;
-    margin-top: 0px;
-}
-.parallax {
-    text-align: center;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 40%;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    width: 100%;
-    font-size: 18px;
-}
-.parallax_description {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    width: 90%;
-    margin-top: 25px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 12px;
-    float: none;
-    text-align: center;
-}
-.banner {
-    background-color: #2D9AB7;
-    background-image: none;
-}
-.tagline {
-    margin-top: 40px;
-    line-height: 22px;
-}
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 13px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .container header nav {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        float: none;
+        display: none;
+    }
+
+    header nav ul {
+    }
+
+    nav ul li {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text_column {
+        width: 100%;
+        text-align: justify;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+
+    .footer_column {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .parallax {
+        text-align: center;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 40%;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .parallax_description {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        width: 90%;
+        margin-top: 25px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 12px;
+        float: none;
+        text-align: center;
+    }
+
+    .banner {
+        background-color: #2D9AB7;
+        background-image: none;
+    }
+
+    .tagline {
+        margin-top: 40px;
+        line-height: 22px;
+    }
 }
 
 /* end of mobile media queries */
 /* Small Tablets */
-	
+
 /* beginning of tablet media queries */
 @media (min-width: 321px)and (max-width: 767px) {
-.logo {
-    width: 100%;
-    text-align: center;
-    margin-top: 13px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    color: #043745;
-}
-.container header nav {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 100%;
-    float: none;
-    overflow: auto;
-    display: inline-block;
-    background: #52bad5;
-}
-header nav ul {
-    padding: 0px;
-    float: none;
-}
-nav ul li {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 100%;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-.text_column {
-    width: 100%;
-    text-align: left;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-.thumbnail {
-    width: 100%;
-}
-.footer_column {
-    width: 100%;
-    margin-top: 0px;
-}
-.parallax {
-    text-align: center;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 40%;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    width: 100%;
-    font-size: 18px;
-}
-.parallax_description {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-top: 30%;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    float: none;
-    width: 100%;
-    text-align: center;
-}
-.thumbnail {
-    width: 50%;
-}
-.parallax {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-top: 20%;
-}
-.parallax_description {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 100%;
-    padding-top: 30px;
-}
-.banner {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.footer_column {
-    width: 100%;
-}
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 13px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        color: #043745;
+    }
+
+    .container header nav {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        float: none;
+        overflow: auto;
+        display: inline-block;
+        background: #52bad5;
+    }
+
+    header nav ul {
+        padding: 0px;
+        float: none;
+    }
+
+    nav ul li {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .text_column {
+        width: 100%;
+        text-align: left;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+
+    .footer_column {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .parallax {
+        text-align: center;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 40%;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .parallax_description {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        margin-top: 30%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .thumbnail {
+        width: 50%;
+    }
+
+    .parallax {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-top: 20%;
+    }
+
+    .parallax_description {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .banner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer_column {
+        width: 100%;
+    }
 }
 
 /* end of tablet media queries */
-	
+
 /* Small Desktops */
 /* beginning of desktop media queries */
 @media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-    width: 100%;
+    .text_column {
+        width: 100%;
+    }
+
+    .thumbnail {
+        width: 50%;
+    }
+
+    .text_column {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .banner {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
 }
-.thumbnail {
-    width: 50%;
-}
-.text_column {
-    width: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-.banner {
-    margin-top: 0px;
-    padding-top: 0px;
-}
-}
-/* end of small desktop media queries */	
+
+/* end of small desktop media queries */
 /* end of singlePageTemplate.css paste */
