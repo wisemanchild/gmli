@@ -100,7 +100,7 @@
         amet saepe vel, aliquid aliquam enim. Eveniet adipisci, officiis ullam fugiat tempora sunt, voluptatibus atque
         accusantium ad, cum commodi, doloremque quasi laboriosam quis!
     </p>
-    <blockquote>
+<!--    <blockquote>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore provident odit ea facilis nihil!
         Reprehenderit ipsum possimus odio corporis labore veniam sed sint rem eius porro, minima voluptatibus quasi
         exercitationem alias delectus dolorum at error architecto soluta quas esse, eum. Quos deserunt quod
@@ -108,8 +108,7 @@
         facere quo quibusdam officiis repudiandae possimus, earum excepturi iusto, nemo ut dolore? Iure eaque, rem
         optio aspernatur!
     </blockquote>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, omnis porro cumque animi nihil nulla
+-->    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, omnis porro cumque animi nihil nulla
          obcaecati, at, corporis tempora nobis dolorem minima! Dignissimos, molestiae, pariatur.
     </p>
 
