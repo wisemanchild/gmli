@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 <meta charset="utf-8">
 <?php
 
@@ -108,7 +108,8 @@
         facere quo quibusdam officiis repudiandae possimus, earum excepturi iusto, nemo ut dolore? Iure eaque, rem
         optio aspernatur!
     </blockquote>
--->    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, omnis porro cumque animi nihil nulla
+-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, omnis porro cumque animi nihil nulla
          obcaecati, at, corporis tempora nobis dolorem minima! Dignissimos, molestiae, pariatur.
     </p>
 
